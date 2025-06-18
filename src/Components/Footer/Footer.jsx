@@ -33,7 +33,7 @@ const Footer = () => {
             { name: "About", id: "about" },
             { name: "Skills", id: "skills" },
             { name: "Experience", id: "Experience" },
-            { name: "Projects", id: "work" },
+            { name: "Projects", id: "projects" },
             { name: "Education", id: "education" },
             { name: "Contact", id: "contact" },
           ].map((item, index) => (

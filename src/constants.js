@@ -60,7 +60,7 @@ import pmLogo from "./assets/tech_logo/predictive-model.png";
 
 //education section logo's
 import hawassaLogo from "./assets/education_logo/hawasa-university.jpg";
-import addisAbabaLogo from "./assets/education_logo/addis-ababa-university.jpg";
+import astuLogo from "./assets/education_logo/astu.jpg";
 import fasiledesLogo from "./assets/education_logo/fasiledes.jpg";
 
 // project section images
@@ -289,9 +289,9 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: addisAbabaLogo,
-    school: "Addis Ababa University",
-    desc: "I have completed my Master's degree (MSc) in Mechatronics Engineering from Addis Ababa University, Addis Ababa. Pursued a rigorous, interdisciplinary program focused on the integration of mechanical systems, electronics, control engineering, and computer science. The MSc in Mechatronics Engineering at Addis Ababa University provided advanced knowledge and hands-on experience in automation, robotics, embedded systems, and intelligent control. Engaged in both theoretical coursework and applied research, with a strong emphasis on problem-solving, innovation, and system integration.",
+    img: astuLogo,
+    school: "Addis Ababa Science And Technology University",
+    desc: "I have completed my Master's degree (MSc) in Mechatronics Engineering from Addis Ababa Science And Technology University, Addis Ababa. Pursued a rigorous, interdisciplinary program focused on the integration of mechanical systems, electronics, control engineering, and computer science. The MSc in Mechatronics Engineering at Addis Ababa Science And Technology University provided advanced knowledge and hands-on experience in automation, robotics, embedded systems, and intelligent control. Engaged in both theoretical coursework and applied research, with a strong emphasis on problem-solving, innovation, and system integration.",
     degree: "Master of Mechatronics Engineering - MSc",
   },
   {
