@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://amanuelmihiret.vercel.app.com/sitemap.xml
