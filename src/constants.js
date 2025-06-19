@@ -165,7 +165,7 @@ export const skillsInfo = [
       { name: "CSS", logo: cssLogo },
       { name: "Docker", logo: dockerLogo },
       { name: "JSON", logo: jsonLogo },
-      { name: "JupiterNotebook", logo: jupiterNotebookLogo },
+      { name: "Jupiter Notebook", logo: jupiterNotebookLogo },
     ],
   },
   {

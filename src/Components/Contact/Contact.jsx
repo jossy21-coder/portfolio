@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import emailjs from "@emailjs/browser";
@@ -6,7 +6,6 @@ import { Helmet } from "react-helmet-async";
 
 const Contact = () => {
   const form = useRef();
-  const [isSent, setIsSent] = useState(false);
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
@@ -18,7 +17,6 @@ const Contact = () => {
       )
       .then(
         () => {
-          setIsSent(true);
           form.current.reset(); // Reset form fields after sending
           toast.success("Message Sent Successfully! ✅", {
             position: "top-right",
