@@ -9,6 +9,7 @@ import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import BlurBlob from "./BlurBlob";
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
           <Contact />
           <Footer />
           <Analytics />
+          <SpeedInsights />
         </div>
       </div>
     </>

@@ -41,7 +41,7 @@ const Navbar = () => {
   return (
     <>
       <Helmet>
-        <title>My Projects | Amanuel Mihiret</title>
+        <title>Amanuel Mihiret</title>
         <meta
           name="description"
           content="Explore AI, IoT, and CV projects by Amanuel Mihiret."
