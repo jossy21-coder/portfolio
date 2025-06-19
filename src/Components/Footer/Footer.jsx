@@ -54,7 +54,7 @@ const Footer = () => {
               <button
                 key={index}
                 onClick={() => handleScroll(item.id)}
-                className="hover:text-purple-500 text-sm sm:text-base my-1 cursor-pointer"
+                className="bt text-sm sm:text-base my-1 cursor-pointer relative"
               >
                 {item.name}
               </button>

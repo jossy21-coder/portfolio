@@ -37,7 +37,29 @@ html {
 }
 ::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background: linear-gradient(to top, orange, #8245ec);
+  background: linear-gradient(
+    to top,
+    oklch(62.7% 0.265 303.9),
+    rgb(177, 147, 92)
+  );
+}
+
+.bt::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: oklch(62.7% 0.265 303.9);
+  border-radius: 5px;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+}
+.bt:hover::after {
+  transform-origin: left;
+  transform: scaleX(1);
 }
 
 @layer utilities {

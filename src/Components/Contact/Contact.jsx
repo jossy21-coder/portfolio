@@ -75,8 +75,8 @@ const Contact = () => {
         </div>
 
         {/* Contact Form */}
-        <div className="mt-8 w-full max-w-md bg-[#0d081f] p-6 rounded-lg shadow-lg border border-gray-700 hover:shadow-purple-500/50 hover:-translate-y-2 transition-transform duration-300">
-          <h3 className="text-xl font-semibold text-white text-center">
+        <div className="mt-8 w-full max-w-md bg-[#0d081f] p-6 rounded-2xl shadow-lg border border-gray-700 hover:shadow-purple-500/50 hover:-translate-y-2 transition-transform duration-300">
+          <h3 className="text-xl font-semibold text-white text-center animate-bounce">
             Connect With Me
           </h3>
 

@@ -73,12 +73,12 @@ const Navbar = () => {
           <ul className="hidden md:flex space-x-8 text-gray-300">
             {menuItems.map((item) => (
               <li
-                className={`hover:text-[#8245ec] ${
-                  activeSection === item.id ? "text-[#8245ec]" : ""
+                className={`relative ${
+                  activeSection === item.id ? "text-[orange]" : ""
                 }`}
               >
                 <button
-                  className="cursor-pointer"
+                  className="cursor-pointer bt"
                   onClick={() => handleMenuItemClick(item.id)}
                 >
                   {item.label}
@@ -130,11 +130,14 @@ const Navbar = () => {
               {menuItems.map((item) => (
                 <li
                   key={item.id}
-                  className={`cursor-pointer hover:text-white ${
-                    activeSection === item.id ? "text-[#8245ec]" : ""
+                  className={`relative ${
+                    activeSection === item.id ? "text-[orange]" : ""
                   }`}
                 >
-                  <button onClick={() => handleMenuItemClick(item.id)}>
+                  <button
+                    className="bt cursor-pointer"
+                    onClick={() => handleMenuItemClick(item.id)}
+                  >
                     {item.label}
                   </button>
                 </li>
