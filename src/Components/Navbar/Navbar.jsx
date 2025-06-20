@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { FaGithub, FaBriefcase, FaLinkedin } from "react-icons/fa";
-import { FaUpwork } from 'react-icons/fa6';
+import { FaUpwork } from "react-icons/fa6";
 import { Helmet } from "react-helmet-async";
 
 const Navbar = () => {
@@ -161,10 +161,18 @@ const Navbar = () => {
                   <FaGithub size={24} />
                 </a>
                 <a
+                  href="https://www.upwork.com/freelancers/~018267dd30abf9c4db"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-[#8245ec]"
+                >
+                  <FaUpwork size={24} />
+                </a>
+                <a
                   href="https://www.linkedin.com/in/zeaman44/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-300 hover:text-white"
+                  className="text-gray-300 hover:text-[#8245ec]"
                 >
                   <FaLinkedin size={24} />
                 </a>
