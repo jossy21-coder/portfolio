@@ -61,12 +61,12 @@ const Navbar = () => {
       >
         <div className="text-white py-5 flex justify-between items-center">
           {/* Logo */}
-          <div className="text-lg font-semibold cursor-pointer">
+          <div className="text-lg font-semibold cursor-pointer ml-0">
             <span className="text-[#8245ec]">&lt;</span>
             <span className="text-white">Aman</span>
             <span className="text-[#8245ec]">/</span>
             <span className="text-white">AM</span>
-            <span className="text-[#8245ec]">&gt;</span>
+            <span className="text-[#8245ec] mr-10">&gt;</span>
           </div>
 
           {/* Desktop Menu */}
@@ -93,7 +93,7 @@ const Navbar = () => {
               href=" https://github.com/Zeaman"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-300 hover:text-[#8245ec]"
+              className="text-gray-300 hover:text-[#8245ec] ml-10"
             >
               <FaGithub size={24} />
             </a>
