@@ -6,6 +6,7 @@ import {
   FaKaggle,
   FaYoutube,
 } from "react-icons/fa";
+import { FaUpwork } from 'react-icons/fa6';
 import { Helmet } from "react-helmet-async";
 
 const Footer = () => {
@@ -65,6 +66,10 @@ const Footer = () => {
           <div className="flex flex-wrap justify-center space-x-4 mt-6">
             {[
               {
+                icon: <FaUpwork />,
+                link: "https://www.upwork.com/freelancers/~018267dd30abf9c4db",
+              },
+              {
                 icon: <FaFacebook />,
                 link: "https://web.facebook.com/amihiret/",
               },
@@ -74,7 +79,7 @@ const Footer = () => {
               },
               {
                 icon: <FaLinkedin />,
-                link: "https://www.linkedin.com/in/amanuel-mihiret-worku-463748177/",
+                link: "https://www.linkedin.com/in/zeaman44/",
               },
               {
                 icon: <FaKaggle />,

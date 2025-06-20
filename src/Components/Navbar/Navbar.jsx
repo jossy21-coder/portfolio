@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaBriefcase, FaLinkedin } from "react-icons/fa";
+import { FaUpwork } from 'react-icons/fa6';
 import { Helmet } from "react-helmet-async";
 
 const Navbar = () => {
@@ -90,7 +91,7 @@ const Navbar = () => {
           {/* Social Icons */}
           <div className="hidden md:flex space-x-4">
             <a
-              href=" https://github.com/Zeaman"
+              href="https://github.com/Zeaman"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-[#8245ec] ml-10"
@@ -98,7 +99,15 @@ const Navbar = () => {
               <FaGithub size={24} />
             </a>
             <a
-              href="www.linkedin.com/in/zeaman44"
+              href="https://www.upwork.com/freelancers/~018267dd30abf9c4db"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-300 hover:text-[#8245ec]"
+            >
+              <FaUpwork size={24} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/zeaman44/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-[#8245ec]"
@@ -144,7 +153,7 @@ const Navbar = () => {
               ))}
               <div className="flex space-x-4">
                 <a
-                  href=" https://github.com/Zeaman"
+                  href="https://github.com/Zeaman"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-white"
@@ -152,7 +161,7 @@ const Navbar = () => {
                   <FaGithub size={24} />
                 </a>
                 <a
-                  href="www.linkedin.com/in/zeaman44"
+                  href="https://www.linkedin.com/in/zeaman44/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-white"
