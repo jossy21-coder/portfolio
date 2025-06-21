@@ -73,3 +73,43 @@ html {
     clip-path: polygon(0 0, 100% 0, 100% 98%, 75% 96%, 0 100%);
   }
 }
+
+/* Custom Swiper Styles */
+.custom-bullet {
+  @apply w-3 h-3 bg-gray-300 rounded-full cursor-pointer transition-all duration-300;
+}
+
+.custom-bullet.swiper-pagination-bullet-active {
+  @apply bg-blue-600 w-8;
+}
+
+.custom-bullet:hover {
+  @apply bg-blue-400 scale-110;
+}
+
+/* Smooth transitions for all interactive elements */
+.swiper-slide {
+  transition: transform 0.3s ease;
+}
+
+.swiper-slide-active {
+  transform: scale(1.02);
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-400 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-600;
+}

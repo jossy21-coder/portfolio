@@ -6,7 +6,7 @@ import {
   FaKaggle,
   FaYoutube,
 } from "react-icons/fa";
-import { FaUpwork } from 'react-icons/fa6';
+import { FaUpwork } from "react-icons/fa6";
 import { Helmet } from "react-helmet-async";
 
 const Footer = () => {
@@ -50,6 +50,7 @@ const Footer = () => {
               { name: "Experience", id: "Experience" },
               { name: "Projects", id: "projects" },
               { name: "Education", id: "education" },
+              { name: "Testimonials", id: "testimonials" },
               { name: "Contact", id: "contact" },
             ].map((item, index) => (
               <button
