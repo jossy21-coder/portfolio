@@ -95,7 +95,7 @@ const Navbar = () => {
               href="https://github.com/Zeaman"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-300 hover:text-[#8245ec] ml-10"
+              className="text-gray-300 hover:text-[#8245ec] ml-10 hover:-translate-y-2 transition-transform duration-500"
             >
               <FaGithub size={24} />
             </a>
@@ -103,7 +103,7 @@ const Navbar = () => {
               href="https://www.upwork.com/freelancers/~018267dd30abf9c4db"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-300 hover:text-[#8245ec]"
+              className="text-gray-300 hover:text-[#8245ec] hover:-translate-y-2 transition-transform duration-500"
             >
               <FaUpwork size={24} />
             </a>
@@ -111,7 +111,7 @@ const Navbar = () => {
               href="https://www.linkedin.com/in/zeaman44/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-300 hover:text-[#8245ec]"
+              className="text-gray-300 hover:text-[#8245ec] hover:-translate-y-2 transition-transform duration-500"
             >
               <FaLinkedin size={24} />
             </a>

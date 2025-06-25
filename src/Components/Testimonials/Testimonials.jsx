@@ -98,7 +98,7 @@ const Testimonials = () => {
       </Helmet>
       <section id="testimonials">
         {/* title section */}
-        <div>space</div>
+        <div className="opacity-0">space</div>
         <div className="text-center mb-16 mt-16">
           <h2 className="text-4xl font-bold text-white">TESTIMONIALS</h2>
           <div className="w-40 h-1 bg-purple-500 mx-auto mt-4"></div>
