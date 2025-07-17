@@ -103,9 +103,20 @@ const Footer = () => {
             ))}
           </div>
 
+          {/* Developed By Text */}
+          <p className="text-md text-gray-400 mt-6">
+            POWERED BY{" "}
+            <span className="text-md text-cyan-500">
+              {" "}
+              Jossy<span className="text-md text-amber-300">AM21.</span>
+            </span>
+          </p>
+
+          <hr className="mt-4 w-full" />
+
           {/* Copyright Text */}
           <p className="text-sm text-gray-400 mt-6">
-            © 2025 JossyAM21. All rights reserved.
+            © 2025 AmanuelMihiret. All rights reserved.
           </p>
         </div>
       </footer>
