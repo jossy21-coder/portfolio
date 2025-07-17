@@ -63,7 +63,7 @@ const Navbar = () => {
       >
         <div className="text-white py-5 flex justify-between items-center">
           {/* Logo */}
-          <div className="text-lg font-semibold cursor-pointer ml-[-120px]">
+          <div className="text-lg font-semibold cursor-pointer flex-shrink-0">
             <span className="text-[#8245ec]">&lt;</span>
             <span className="text-white">Aman</span>
             <span className="text-[#8245ec]">/</span>
@@ -72,7 +72,7 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Menu */}
-          <ul className="hidden md:flex space-x-8 text-gray-300">
+          <ul className="hidden lg:flex space-x-8 text-gray-300">
             {menuItems.map((item) => (
               <li
                 className={`relative ${
@@ -90,7 +90,7 @@ const Navbar = () => {
           </ul>
 
           {/* Social Icons */}
-          <div className="hidden md:flex space-x-4">
+          <div className="hidden lg:flex space-x-4">
             <a
               href="https://github.com/Zeaman"
               target="_blank"
@@ -118,7 +118,7 @@ const Navbar = () => {
           </div>
 
           {/* Mobile Menu Icon */}
-          <div className="md:hidden">
+          <div className="lg:hidden">
             {isOpen ? (
               <FiX
                 className="text-3xl text-[#8245ec] cursor-pointer"
@@ -135,7 +135,7 @@ const Navbar = () => {
 
         {/* Mobile Menu Items */}
         {isOpen && (
-          <div className="absolute top-16 left-1/2 transform -translate-x-1/2 w-4/5 bg-[#050414] bg-opacity-50 backdrop-filter backdrop-blur-md z-50 rounded-lg shadow-lg md:hidden">
+          <div className="absolute top-16 left-1/2 transform -translate-x-1/2 w-4/5 bg-[#050414] bg-opacity-50 backdrop-filter backdrop-blur-md z-50 rounded-lg shadow-lg lg:hidden">
             <ul className="flex flex-col justify-self-center space-y-4 py-4 text-gray-300">
               {menuItems.map((item) => (
                 <li
