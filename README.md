@@ -1,4 +1,4 @@
-# 🌐 Personal Portfolio Website  
+# 🌐 Amanuel's Portfolio Website  
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=000)  
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=fff)  
