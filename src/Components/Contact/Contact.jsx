@@ -44,17 +44,18 @@ const Contact = () => {
   };
   return (
     <>
-      <Helmet>
-        <title>Amanuel Mihiret</title>
-        <meta
-          name="description"
-          content="Explore AI, IoT, and CV projects by Amanuel Mihiret."
-        />
-        <meta
-          name="keywords"
-          content="AI, IoT, Computer Vision, Portfolio, Amanuel Mihiret"
-        />
-      </Helmet>
+      
+            <Helmet>
+              <title>Amanuel Mihiret</title>
+              <meta
+                name="description"
+                content="Explore AI, IoT, and CV projects by Amanuel Mihiret."
+              />
+              <meta
+                name="keywords"
+                content="AI, IoT, Computer Vision, Portfolio, Amanuel Mihiret"
+              />
+            </Helmet>
 
       <section
         id="contact"

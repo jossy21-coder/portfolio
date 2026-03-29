@@ -57,7 +57,7 @@ const Experience = () => {
                 } left-4 transform -translate-x-1/2 bg-gray-400 border-4 border-[#8245ec] w-12 h-12 sm:w-16 sm:h-16 rounded-full flex justify-center items-center`}
               >
                 <img
-                  src={experience.img}
+                  src={experience.img} loading="lazy"
                   alt={experience.company}
                   className="w-full h-full object-cover rounded-full"
                 />
@@ -75,7 +75,7 @@ const Experience = () => {
                   <div className="flex items-center space-x-4 sm:space-x-6">
                     <div className="w-14 h-14 sm:w-16 sm:h-16 bg-white rounded-md overflow-hidden">
                       <img
-                        src={experience.img}
+                        src={experience.img} loading="lazy"
                         alt={experience.company}
                         className="w-full h-full object-cover"
                       />

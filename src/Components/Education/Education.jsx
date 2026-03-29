@@ -57,7 +57,7 @@ const Education = () => {
                 } left-4 transform -translate-x-1/2 bg-gray-400 border-4 border-[#8245ec] w-12 h-12 sm:w-16 sm:h-16 rounded-full flex justify-center items-center`}
               >
                 <img
-                  src={edu.img}
+                  src={edu.img} loading="lazy"
                   alt={edu.school}
                   className="w-full h-full object-cover rounded-full"
                 />
@@ -74,7 +74,7 @@ const Education = () => {
                   <div className="flex items-center space-x-4 sm:space-x-6">
                     <div className="w-20 h-14 sm:w-24 sm:h-16 bg-white rounded-md overflow-hidden">
                       <img
-                        src={edu.img}
+                        src={edu.img} loading="lazy"
                         alt={edu.school}
                         className="w-full h-full object-cover"
                       />

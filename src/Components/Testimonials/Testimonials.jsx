@@ -9,12 +9,12 @@ import {
 } from "swiper/modules";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Helmet } from "react-helmet-async";
-import photo1 from "../../assets/testimonials/photo1.jpg";
-import photo2 from "../../assets/testimonials/photo2.jpg";
-import photo3 from "../../assets/testimonials/photo3.jpg";
-import photo4 from "../../assets/testimonials/photo4.jpg";
-import photo5 from "../../assets/testimonials/photo5.jpg";
-import photo6 from "../../assets/testimonials/photo6.jpg";
+import photo1 from "../../assets/testimonials/photo1.webp";
+import photo2 from "../../assets/testimonials/photo2.webp";
+import photo3 from "../../assets/testimonials/photo3.webp";
+import photo4 from "../../assets/testimonials/photo4.webp";
+import photo5 from "../../assets/testimonials/photo5.webp";
+import photo6 from "../../assets/testimonials/photo6.webp";
 
 // Import Swiper styles
 import "swiper/css";

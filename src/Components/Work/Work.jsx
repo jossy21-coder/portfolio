@@ -93,7 +93,7 @@ const Work = () => {
                 <div className="w-full flex justify-center bg-gray-900 px-4">
                   <img
                     src={selectedProject.image}
-                    alt={selectedProject.title}
+                    alt={selectedProject.title} loading="lazy"
                     className="lg:w-[40%] w-[95%] object-cover rounded-xl shadow-2xl"
                   />
                 </div>

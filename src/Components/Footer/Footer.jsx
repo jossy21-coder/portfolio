@@ -77,7 +77,7 @@ const Footer = () => {
               {
                 icon: <FaTwitter />,
                 link: "https://x.com/MihiretAmanuel",
-              },
+                },
               {
                 icon: <FaLinkedin />,
                 link: "https://www.linkedin.com/in/zeaman44/",
